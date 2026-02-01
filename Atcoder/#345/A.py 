@@ -1,0 +1,8 @@
+S = str(input())
+chack = True
+if S[0] == "<" and S[-1] == ">":
+    if S.count("=") == len(S)-2:
+        print("Yes")
+        chack = False
+if chack: 
+    print("No")
