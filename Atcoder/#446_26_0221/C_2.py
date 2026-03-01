@@ -11,7 +11,7 @@ for i in range(t):
             idx = z
             while a[idx] < 0:
                 a[idx+1] += a[idx]
-                idx +=1
+                idx += 1
         if j > d-1:
             a[z]= 0
             z+= 1
