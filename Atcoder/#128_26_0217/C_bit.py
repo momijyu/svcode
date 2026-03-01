@@ -10,6 +10,4 @@ for i in range(1 << n):
     for j in range(n):
         if 1 & (i >> j):
             cond[j] = 1
-        if (j + 1) in sk[i]:
-            print(j)
     print(cond)
