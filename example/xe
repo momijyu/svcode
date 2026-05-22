@@ -1,0 +1,8 @@
+from datetime import datetime
+st = 0
+end = 10 ** 9
+print(end)
+dt = datetime.now()
+while  st <= end-1:
+    st += 1
+print(dt, datetime.now(), sep= "\n")

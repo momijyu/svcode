@@ -1,6 +1,4 @@
-# Nのものから自由に選ぶ合計や組み合わせなどを全探索する(多分場合の数？)
-
-n= int(input())
+n=3
 cnt = 0
 for i in range(1 << n):
     cond = [0]*n
@@ -9,5 +7,3 @@ for i in range(1 << n):
             cond[j] = 1
     cnt += 1 
     print(cond)
-print(1 >> n)
-print(cnt)
