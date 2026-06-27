@@ -18,7 +18,7 @@ class Bit:
         while i <= self.size:
             self.tree[i] += x
             i += i & -i
-#---------------------------------------------
+#----------------------　　-----------------------
 def solve():
     n, q = map(int,input().split())
     a = list(map(int,input().split()))
