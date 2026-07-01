@@ -30,4 +30,4 @@ for j in range(2, m + 1):
         col[b] += 1
         i += 1
     print(cols)
-    print(col)
+    #print(col)
