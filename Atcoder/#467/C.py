@@ -7,4 +7,4 @@ for i in range(n-1):
     if (a[i]+a[i+1])% m != b[i]:
         ans += 1
         a[i+1] += 1
-print(ans)
+print(min(ans, n-ans))

@@ -14,5 +14,3 @@ for i in range(n-1):
         ans += m -x +b[i]
         a[i+1] += m -x +b[i]
         print(33333,a)
-
-print(min(ans, n-ans))
