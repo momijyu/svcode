@@ -23,3 +23,4 @@ if check:
     print(*(p[1:]))
 else:
     print(*(z[1:]))
+    
